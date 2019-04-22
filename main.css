@@ -1,0 +1,140 @@
+/* ШРИФТЫ 
+font-family: 'Gotham Pro Light';
+*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+
+@font-face {
+	font-family: 'Gotham Pro Light';
+	src: url('GothamPro-Light.eot');
+	src: url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+	url('GothamPro-Light.woff') format('woff'),
+	url('GothamPro-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+  @font-face {
+font-family: 'Gotham Pro Regular';
+src: url('GothamPro.eot');
+src: url('GothamPro.eot?#iefix') format('embedded-opentype'),
+url('GothamPro.woff') format('woff'),
+url('GothamPro.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+	background-image: url(../images/Background.jpg);
+	margin: 0 auto;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+}
+
+h1, div {
+	margin: 0;
+	padding: 0;
+}
+
+.content-wrapper {
+	margin-left: auto;
+	max-width: 947px;
+	max-height: 768px;
+}
+
+.ice__1 {
+	width: 90px;
+	margin-left: 8px;
+	margin-top: -88px;
+}
+
+.ice__2 {
+	margin-left: auto;
+	width: 146px;
+	margin-top: 30px;
+}
+
+.zagolovok {
+	text-align: center;
+	font-family: 'Gotham Pro Light';
+	font-size: 50px;
+	color: #fff;
+	margin-right: 42px;
+	margin-top: 50px;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.navigation img {
+	margin-top: 6px;
+	margin-left: auto;
+	margin-right: 23px;
+}
+
+.ice__3 {
+	width: 120px;
+	margin-left: 155px;
+	margin-top: 5px;
+}
+
+.ice__4 {
+	margin-left: auto;
+	width: 140px;
+	margin-top: 40px;
+	margin-right: 250px;
+}
+
+.footer__title {
+	display: flex;
+	justify-content: center;
+	font-family: 'Gotham Pro Regular';
+	color: #fff;
+	margin-top: 5px;
+}
+
+.shape {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.pictures_footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.long {
+	position: absolute;
+	margin-top: -26px;
+	right: 38px;
+}
+
+.small {
+	position: absolute;
+	margin-top: -20px;
+	z-index: -1;
+}
+
+.footer {
+	margin-top: 28px;
+}
+
+.footer__title {
+	font-family: 'Gotham Pro Regular';
+	color: #fff;
+}
+
+
+
+
+}
